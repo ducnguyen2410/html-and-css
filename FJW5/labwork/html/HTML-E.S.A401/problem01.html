@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links: Task 1</title>
+    <style>
+        body {
+            background-color: #fff;
+            color: #333;
+            font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+            padding: 1em;
+            margin: 0;
+          }
+    
+          h1 {
+            font-size: 2rem;
+            margin: 0;
+            color: purple;
+          }
+    
+          p{
+            color: gray;
+            margin: 0.5rem 0;
+          }
+    
+          * {
+            box-sizing: border-box;
+          }
+
+          a[title]:hover::after {
+            content: attr(title);
+            position: absolute;
+            top: -100%;
+            left: 0;
+          }
+    </style>
+</head>
+<body>
+    <h1>Information on Whales</h1>
+    <p>For more information on our conservation activities an which whales we study, see our <a href="./whales.html" target="_blank">Whales page</a></p>
+    <p>If you want to ask our team more questions, feel free to <a href="mailto:whales@example.com?subject=Questions%20about%20Whales" title="Questions about Whales">email us</a></p>
+</body>
+</html>

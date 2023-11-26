@@ -1,0 +1,160 @@
+* {
+  padding: 0 0;
+  margin: 0 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#employee {
+  border-collapse: collapse;
+  border: 5px double black;
+}
+
+#employee td,
+#employee th,
+#employee tr{
+  border:0.5px dotted gray;
+  text-align: center;
+  padding: 5px 12px;
+}
+
+#employee th {
+  border: 2px solid black;
+}
+
+.small {
+  font-size: 12px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  width: 100%;
+  height: 540px;
+  background-image: url("../images/z4451554297593_74f491fbed697e8c71bd6e770668fb22\ 1.png");
+  padding-top: 10px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 164px;
+  gap: 80px;
+}
+
+#nav__cate {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+#nav__cate a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+#searchbar {
+  width: 604px;
+  height: 74px;
+}
+
+#searchbar__firstsection,
+#searchbar__secondsection {
+  height: 46px;
+}
+
+#searchbar__button {
+  height: 41px;
+  width: 103px;
+  background-color: #1a64ae;
+}
+
+#searchbar__button span {
+  font-size: 13px;
+}
+
+section {
+  padding: 0 164px;
+}
+
+#image__intro {
+  width: 350px;
+  height: 206px;
+}
+
+#text__section1,
+#text__section2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#intro__section2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #1a64ae;
+}
+
+#nav__cate a.unactive::after {
+  content: "";
+  background-color: white;
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+#nav__cate a:hover:after {
+  width: 100%;
+}
+
+.active::after {
+  content: "";
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+}
+
+.property__box {
+  width: 111px;
+  height: 111px;
+  border-radius: 50%;
+  background-color: #E6EDF9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.box__container span {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 10px;
+}
+
+.box__container {
+  width: 20%;
+}
+
+div .box__container:first-child span,
+div .box__container:last-child span {
+  width: 130px;
+}
+
+#filter img {
+  width: 10px;
+  height: 10px;
+}

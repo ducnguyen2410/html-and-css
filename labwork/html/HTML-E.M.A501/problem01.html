@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+    <style>
+        body {
+            background-color: #fff;
+            color: #333;
+            font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+            padding: 1em;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        audio {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>This is an audio</h2>
+    <audio controls muted>
+        <source src="./resources/file_example_MP3_700KB.mp3" type="audio/mpeg">
+        <source src="./resources/file_example_OGG_480_1_7mg.ogg" type="video/ogg">
+        <source src="./resources/file_example_WEBM_480_900KB.webm" type="video/webm">
+        Your browser does not support this audio
+    </audio>
+</body>
+</html>

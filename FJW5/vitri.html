@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/vitri.css" />
+    <style>
+      * {
+        padding: 0 0;
+        margin: 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <div id="header_container">
+          <div id="logo">
+            <img
+              src="./images/viber_image_2023-04-25_13-50-16-942 copy 1.png"
+              alt=""
+            />
+          </div>
+          <div id="navbar">
+            <a href="mainpage.html">Trang chu</a>
+            <a href="about.html">Ve chung toi</a>
+            <a href="ethics.html">Quy tac dao duc nghe nghiep</a>
+            <a href="hire.html">Vi tri tuyen dung</a>
+            <a
+              href="https://eurowindow-holding.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Website EWH</a
+            >
+          </div>
+        </div>
+        <div id="main__image">
+          <img src="./images/Rectangle 44navImage.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <br />
+    <section>
+      <h1>Vi tri chi tiet</h1>
+      <h2>The a</h2>
+      <a href="index.html">Index</a>
+      <a
+        href="https://www.figma.com/file/9xWKgRdhkdI9UkDeMvsMKk/Tuy%E1%BB%83n-d%E1%BB%A5ng-Eurowindow-Holding?type=design&node-id=135-241&mode=design&t=ddtczrq1fQlDTpQq-0"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Figma</a
+      >
+      <a href="https://www.google.com.vn/?hl=vi">Google</a>
+      <a href="mailto:ducnguyenbernardine@gmail.com">Email</a>
+      <a href="tel:+84936036186">Phone</a>
+    </section>
+
+    <form action="submit" id="donUngTuyen">
+      <label for="vitricv">Vi tri cong viec</label><br />
+      <select name="cacvitri" id="vitricv">
+        <option value="fe">Frontend Developer</option>
+        <option value="be">Backend Developer</option>
+        <option value="sv">Senior Developer</option></select
+      ><br />
+      <label for="hovaten">Ho va ten</label><br />
+      <input type="text" id="hovaten"/><br />
+      <label for="mail">Email</label><br />
+      <input type="email" id="mail"/><br />
+      <label for="sdt">So dien thoai</label><br />
+      <input type="tel" id="sdt"/><br />
+      <input type="button" value="Tai CV len" onclick="document.getElementById('cvfileinput').click()">
+      <span></span>
+      <input
+      id="cvfileinput"
+        name="Upload Saved Replay"
+        type="file"
+        accept="application/pdf,application/msword,
+  application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden
+      />
+      <hr>
+      <br>
+      <button>Ung Tuyen</button>
+    </form>
+    <form action="">
+        
+    </form>
+    <footer></footer>
+  </body>
+</html>
